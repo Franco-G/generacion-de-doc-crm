@@ -1,0 +1,17 @@
+Actvidad Comercial B2B Partner Tech
+
+Se espera crear Anuncios con meta ads y google ads para obtener datos de contacto de leads calificados y no calificados
+Interaccion en linkedin para captar correos de leads calificados
+Adquisicion de directorios de correos (ejemplo Directorio Camara de Comercio de Lima) de leads
+
+Contacto: Nombre, correo, telefono, propietario del contacto, Empresa principal, ultima actividad, fecha de ultima actividad, estado de lead (nuevo, )
+
+
+Envio masivo de correos personalizados (brochures: general, servicio staffing mainframe, servicio de desarrollo de software a medida, servicio staffing certificacion QA, servicio staffing de integracion de servicios/apis IBM, etc.) 
+Envio de correos de acercamiento personalizados(articulos, casos de exito, etc.)
+Envio de correos de promocion (descuentos, cupones, etc.)
+Envio de mensajes whatsapp se acercamiento,  seguimiento, recordatorios, etc.
+Envio de llamadas de acercamiento, seguimiento, recordatorios, etc.
+
+Algoritmo de calificación de leads.
+
