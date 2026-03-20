@@ -1,0 +1,57 @@
+DOCUMENTO DE REQUERIMIENTOS FUNCIONALES
+PROYECTO: CRM B2B PARTNER TECH
+=======================================
+
+1. MÓDULO DE ADQUISICIÓN Y MARKETING
+------------------------------------
+[REQ-MKT-01] Integración de Anuncios
+    - El sistema debe permitir la integración con Meta Ads y Google Ads.
+    - Objetivo: Captura automática de datos de contacto de leads (calificados y no calificados).
+
+[REQ-MKT-02] Prospección en LinkedIn
+    - Herramientas o flujo de trabajo para la interacción en LinkedIn.
+    - Objetivo: Captación de correos electrónicos de leads calificados.
+
+[REQ-MKT-03] Importación de Directorios
+    - Funcionalidad para la carga masiva o adquisición de bases de datos externas (Ej. Directorio Cámara de Comercio de Lima).
+
+2. MÓDULO DE GESTIÓN DE CONTACTOS (CORE CRM)
+--------------------------------------------
+[REQ-CRM-01] Ficha de Contacto
+    - Debe almacenar la siguiente información mínima:
+      * Datos Personales: Nombre, Correo, Teléfono, Empresa.
+      * Datos de Gestión: Propietario del contacto, Origen del contacto.
+      * Auditoría: Última actividad, Fecha de última actividad.
+
+[REQ-CRM-02] Gestión de Estados del Lead (Pipeline)
+    - El sistema debe permitir cambiar y visualizar el estado del lead en las siguientes etapas:
+      1. Nuevo lead
+      2. Calificado
+      3. Análisis técnico
+      4. Propuesta enviada
+      5. Negociación
+      6. Ganado
+      7. Perdido
+      8. Remarketing
+
+[REQ-CRM-03] Calificación de Leads (Scoring)
+    - Algoritmo o regla de negocio para calificar leads automáticamente en base a la serie de eventos e interacciones realizadas.
+
+3. MÓDULO DE COMUNICACIONES OMNICANAL
+-------------------------------------
+[REQ-COM-01] Email Marketing y Automatización
+    - Envío masivo de brochures personalizados por servicio (General, Staffing Mainframe, Desarrollo a medida, QA, Integración IBM, etc.).
+    - Envío de correos de acercamiento (Artículos, Casos de éxito).
+    - Envío de correos promocionales (Descuentos, Cupones).
+    - Generación de correos HTML con links a documentos y agendamiento de reuniones (integración con cal.com).
+
+[REQ-COM-02] Mensajería Instantánea y Voz
+    - Envío de mensajes de WhatsApp (Acercamiento, seguimiento, recordatorios).
+    - Registro y gestión de llamadas (Acercamiento, seguimiento, recordatorios).
+
+4. MÓDULO DE GESTIÓN DOCUMENTAL Y VENTAS
+----------------------------------------
+[REQ-DOC-01] Generación de Documentos Comerciales
+    - Creación y edición de Propuestas Comerciales.
+    - Generación de Contratos.
+    - Configuración de variables: Modalidad de pago, Modalidad de servicio.
